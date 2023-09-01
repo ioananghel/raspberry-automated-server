@@ -1,0 +1,5 @@
+---
+- name: Install k3s on Raspberry Pi
+  hosts: raspberrypi
+  roles:
+    - do-install-k3s
